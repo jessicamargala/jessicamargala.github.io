@@ -45,7 +45,7 @@ li a:hover:not(.active) {
 }
 
 .content {
-  background: #ffc0fc;
+  background: #ffdbfd;
   height: 1200px;
   width: 75%;
   position: relative;
@@ -54,15 +54,22 @@ li a:hover:not(.active) {
   padding: 20px;
 }
 
-.picture {
-  height: 250px;
-  width: 200px;
-  background: url("paper.gif");
-  background-position: left top;
-  background-repeat: repeat;
-  margin: auto;
-  border-radius: 25px;
-  padding: 20px;
+.column1 {
+  margin-left: 40%;
+  text-align: left;
+}
+
+.image-container {
+  width: 35%;
+  margin: 0 auto;
+  float: left;
+  margin-left: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
 #myBtn {
