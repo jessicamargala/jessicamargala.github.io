@@ -1,8 +1,8 @@
 body {
   margin: 0px;
-  background-color: #f1acec;
+  background-color: #639fab;
   font-family: "Tourney", cursive;
-  color: #ff7cf6;
+  color: #3f4531;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(245, 103, 228);
+  background-color: #1c5d99;
   position: fixed;
   top: 0;
   width: 100%;
@@ -30,24 +30,24 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(238, 17, 212);
+  background-color: #164570;
 }
 
 a.one:link {
-  color: #ff7cf6;
+  color: #3f4531;
 }
 a.one:visited {
-  color: #ff7cf6;
+  color: #3f4531;
 }
 a.one:hover {
-  color: hotpink;
+  color: #164570;
 }
 a.one:active {
-  color: #ff7cf6;
+  color: #3f4531;
 }
 
 .active {
-  background-color: rgb(245, 103, 228);
+  background-color: #164570;
 }
 .name {
   display: block;
@@ -60,12 +60,13 @@ a.one:active {
 .page {
   padding: 20px;
   margin-top: 30px;
-  background-color: #f1acec;
+  background-color: #639fab;
   height: 1500px;
 }
 
 .content {
-  background: #ffdbfd;
+  background: #bbcde5;
+  font-size: 150%;
   height: auto;
   width: 75%;
   position: relative;
@@ -102,7 +103,7 @@ a.one:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 0%;
   height: auto;
   max-width: 100px;
   border-radius: 100px;
@@ -119,7 +120,7 @@ a.one:active {
   padding: 20px;
   border: 1px solid white;
   border-width: 2px;
-  width: 290px;
+  width: 340px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -138,7 +139,7 @@ a.contact:hover {
 }
 
 .image-container {
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
@@ -148,12 +149,17 @@ a.contact:hover {
   border-radius: 15px;
 }
 
+.resume-container {
+  width: 45%;
+  margin-left: 28%;
+}
+
 .btn {
   margin-top: 10px;
   font-family: "Tourney", cursive;
   font-size: 18px;
   border: none;
-  background-color: rgb(238, 17, 212);
+  background-color: #1c5d99;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -162,7 +168,7 @@ a.contact:hover {
 
 .btn:hover {
   background-color: white;
-  color: rgb(238, 17, 212);
+  color: #164570;
 }
 
 #myBtn {
@@ -175,7 +181,7 @@ a.contact:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(238, 17, 212);
+  background-color: #1c5d99;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -183,6 +189,6 @@ a.contact:hover {
 }
 
 #myBtn:hover {
-  background-color: white;
-  color: rgb(238, 17, 212);
+  background-color: #164570;
+  color: white;
 }
